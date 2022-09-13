@@ -1,9 +1,12 @@
-@media screen and (max-width: 2050px) {
+@media screen and (max-width: 2060px) {
     .main {
         bottom: 6rem;
         position: absolute;
         left: 13%;
         right: 13%;
+    }
+    .about {
+        min-width: 20rem;
     }
 }
 @media screen and (max-width: 1925px) {
@@ -55,9 +58,6 @@
     .main-info {
         gap: 3rem;
         display: flex;
-    }
-    .about {
-        min-width: 20rem;
     }
 }
 @media screen and (max-width: 992px) {
