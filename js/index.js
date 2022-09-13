@@ -26,7 +26,7 @@ model3.addEventListener('click', () => {
     price.innerHTML = '147.000,00€'
 })
 model4.addEventListener('click', () => {
-    page.style.backgroundImage = 'url(./imgs/img-4.png)'
+    page.style.backgroundImage = 'url(./imgs/img-4.jpg)'
     model.innerHTML = 'BMW M440I'
     year.innerHTML = '2017-2018'
     price.innerHTML = '70.000,00€'
