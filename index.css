@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Gantari:wght@300&family=Montserrat&family=Mukta:wght@500&family=Nunito:wght@300&family=Quicksand:wght@400;500;600&family=Raleway:wght@200;300;500&family=Rubik:wght@400;500&family=Work+Sans:wght@300;500&display=swap');
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+html, body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+/*------------------------------------------------------------------------------------*/
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 1rem;
+}
+.header ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 1.8rem;
+}
+.header ul li a {
+    text-decoration: none;
+    font-family: 'Gantari', sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+.header ul li a:hover {
+    text-decoration: underline;
+}
+.title {
+    font-size: 3rem;
+    letter-spacing: 1px;    
+    font-family: 'Mukta', sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+.btn a {
+    font-size: 2rem;
+    word-spacing: 4px;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 0.8rem 2.8rem;
+    border-radius: 30px;
+    font-family: 'Work Sans', sans-serif;
+    background-color: transparent;
+    color: #fff;
+    transition: all .2s;
+}
+.btn a:hover {
+    background-color: #fff;
+    color: #000;
+}
+.main {
+    bottom: 6rem;
+    position: absolute;
+    left: 15%;
+    right: 15%;
+}
+.main-info {
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+}
+.about a {
+    font-size: 2.3rem;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 1rem 2.4rem 1rem 2.6rem;
+    font-family: 'Gantari', sans-serif;
+    border-radius: 30px;
+    font-weight: 600;
+    color: #fff;
+    transition: all .2s;
+}
+.about a:hover {
+    background-color: #fff;
+    color: #000;
+}
+.about a:hover > .fa-arrow-down{
+    color: #000;
+    transform: translateY(5px);
+}
+.fa-arrow-down {
+    padding-left: 0.5rem;
+    transform: translateY(1px);
+    color: #fff;
+    transition: all .2s;
+    font-size: 2.1rem;
+}
+.price {
+    font-size: 2.4rem;
+    letter-spacing: 1.4px;
+    font-family: 'Gantari', sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+.year p {
+    font-size: 2.4rem;
+    letter-spacing: 1px;
+    font-family: 'Gantari', sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+.year {
+    padding-bottom: 2px;
+    position: relative;
+}
+.line {
+    height: 0.2rem;
+    width: 700px;
+    background-color: #000;
+    left: 8rem;
+    background-color: #fff;
+}
+.model-name p{
+    font-size: 2.4rem;
+    letter-spacing: 1px;
+    font-family: 'Gantari', sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+#page {
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: all 0.4s;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-image: url(imgs/img-1.jpg);
+}

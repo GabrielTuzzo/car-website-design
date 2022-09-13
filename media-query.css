@@ -1,0 +1,149 @@
+@media screen and (max-width: 2050px) {
+    .main {
+        bottom: 6rem;
+        position: absolute;
+        left: 13%;
+        right: 13%;
+    }
+}
+@media screen and (max-width: 1925px) {
+    .main {
+        bottom: 6rem;
+        position: absolute;
+        left: 11%;
+        right: 11%;
+    }
+}
+@media screen and (max-width: 1925px) {
+    .main {
+        bottom: 6rem;
+        position: absolute;
+        left: 10%;
+        right: 10%;
+    }
+}
+@media screen and (max-width: 1780px) {
+    .main {
+        bottom: 6rem;
+        position: absolute;
+        left: 8%;
+        right: 8%;
+    }
+}
+@media screen and (max-width: 1695px) {
+    .main {
+        bottom: 6rem;
+        position: absolute;
+        left: 6%;
+        right: 6%;
+    }
+}
+@media screen and (max-width: 1620px) {
+    .main {
+        bottom: 6rem;
+        position: absolute;
+        left: 4%;
+        right: 4%;
+    }
+}
+@media screen and (max-width: 1550px) {
+    .main-info {
+        gap: 3rem;
+    }
+}
+@media screen and (max-width: 1460px) {
+    .main-info {
+        gap: 3rem;
+        display: flex;
+    }
+    .about {
+        min-width: 20rem;
+    }
+}
+@media screen and (max-width: 992px) {
+    .main-info {
+        gap: 2rem;
+        display: flex;
+    }
+    .btn a {
+        word-spacing: 0;
+    }
+    .about a {
+        font-size: 2rem;
+        padding: 1rem 2rem 1rem 2rem;
+    }
+    .about {
+        padding-right: 0rem;
+    }
+    .about a:hover {
+        background-color: #fff;
+        color: #000;
+    }
+    .fa-arrow-down {
+        padding-left: 0.5rem;
+        transform: translateY(0);
+        color: #fff;
+        transition: all .2s;
+        font-size: 1.8rem;
+    }
+    .price {
+        font-size: 2.1rem;
+        letter-spacing: 1px;
+    }
+    .year p {
+        font-size: 2.1rem;
+        letter-spacing: 0.8px;
+    }
+    .model-name p{
+        font-size: 2.1rem;
+        letter-spacing: 0.8px;
+    }
+    .title {
+        display: none;
+    }
+    .header {
+        padding-top: 3rem;
+    }
+    .btn a {
+        padding: 0.8rem 1.9rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 3rem;
+        flex-direction: column;
+    }
+    .btn {
+        padding-top: 3rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .main-info {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .line {
+        width: 250px;
+    }
+    .main {
+        bottom: 2rem;
+    }
+}
+@media screen and (max-width: 530px) {
+    .header {
+        text-align: center;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
+@media screen and (max-width: 330px) {
+    .header {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+}
