@@ -60,6 +60,15 @@
         display: flex;
     }
 }
+@media screen and (max-width: 1024px) {
+    .pswp__preloader {
+      position: relative;
+      left: auto;
+      top: auto;
+      margin: 0;
+      float: right;
+    }
+  }
 @media screen and (max-width: 992px) {
     .main-info {
         gap: 2rem;

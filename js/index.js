@@ -31,3 +31,13 @@ model4.addEventListener('click', () => {
     year.innerHTML = '2017'
     price.innerHTML = '70.000,00€'
 })
+
+addEventListener("load", () => {
+    const loader =  document.querySelector(".loader")
+    
+    loader.classList.add("loader-hidden")
+
+    document.querySelector(".loader").addEventListener("transitionend", () => {
+        document.body.removeChild(document.querySelector(".loader"))
+    })
+})
